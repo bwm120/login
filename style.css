@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+a {
+    text-decoration: none;
+    color: red;
+}
+body {
+    background-image: url(cyberpunk-anime-girl-warrior-sword-hd-wallpaper-uhdpaper.com-135@2@a.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+}
+.box {
+    color: white;
+    position: absolute;
+    text-align: center;
+    left: 250px;
+    top: 200px;
+    width: 250px;
+    height: 350px;
+    box-shadow: 5px 10px 25px 5px rgb(255, 0, 0);
+    border-radius: 25px;    
+    backdrop-filter: blur(5px);
+    border: 2px solid rgb(255, 101, 101);
+}
+
+.top {
+    padding: 25px;
+}
+
+input {
+    background-color: transparent;
+    outline: none;
+}
+input::placeholder {
+    color: rgb(255, 0, 0);
+}
+.input input {
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 25px;
+    padding: 5px;
+    position: relative;
+    margin-top: 10px;
+}
+.input img {
+    position: absolute;
+    right: 40px;
+    margin-top: 13px;
+}
+.remember input {
+    background-color: red;
+    width: 12px;
+    height: 12px;
+    outline: none;
+}
+.forgot-remember {
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    margin-top: 10px;
+}
+.remember + .forgot {
+    margin-left: 40px;
+}
+.remember {
+    display: flex;
+    cursor: pointer;
+}
+.btn {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 25px;
+}
+button {
+    background-color: transparent;
+    outline: none;
+    color:  white;
+}
+.btn-login {
+    background-color: rgb(228, 20, 20);
+    border-radius: 25px;
+    padding: 2px 10px;
+    margin-top: 10px;
+    transition: box-shadow .3s linear;
+    cursor: pointer;
+}
+.btn-login:hover {
+    box-shadow: 1px 1px 25px 1px rgb(255, 0, 0);
+}
+.btn-login button {
+    margin-bottom: 2px;
+}
+.btn-signup {
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    padding: 2px 10px;
+    margin-top: 10px;
+    transition: box-shadow .3s linear;
+    cursor: pointer;
+}
+.btn-signup button {
+    color: black;
+}
+.btn-signup:hover {
+    box-shadow: 1px 1px 25px 1px rgb(251, 251, 251);
+}
+.touchID {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 65px;
+    background-color: red;
+    width: 25px;
+    height: 25px;
+    margin-left: 105px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.touchID {
+    padding: 15px;
+    transition: padding 8s linear;
+    transition: box-shadow .3s linear;
+}
+.touchID:hover {
+    padding: 10px;
+    box-shadow: 1px 1px 25px 1px rgb(255, 0, 0);
+}
